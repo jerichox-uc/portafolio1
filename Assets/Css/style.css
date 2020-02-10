@@ -159,7 +159,7 @@ display: flex;
 }
 
 header {
-  background-image: url('../img/IMG_1935.jpg');
+  background-image: url('../img/victor.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -167,13 +167,23 @@ header {
   margin-top: none !important;
 }
 #carru {background-color: #373A3C}
-.carousel{
-  margin-top: 50px;
+
 }
-.carousel-inner{
-  height: 100px;
+#carru h1.exp {color: #FFFFFF
+text-align: center}
+
+
+* {margin: 0}
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
 }
-.carousel-caption{
-  color: #fff;
-  top: 50%;
+div.row{
+   margin-right: 0px;
+   margin-top: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
 }
